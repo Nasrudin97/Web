@@ -1,0 +1,86 @@
+.showcase2 {
+	background-color: #0e153d;
+	height: 450px;
+}
+.showcase2 .container {
+	text-align: center;
+}
+
+.showcase2 .container .test2 {
+	display: block;
+	margin-left: auto;
+	position: inherit;
+	flex: auto;
+	width: 600px;
+	height: 300px;
+	padding: 10px;
+	border: none;
+	padding-right: 50px;
+	padding-top: 140px;
+	text-align: left;
+	color: #eeeeee;
+}
+.showcase2 .container .dot {
+	display: inline-block;
+	margin-left: 15px;
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	background-color: var(--color-gray-1);
+	outline: 0.09em dashed #20d3c2;
+	align-items: center;
+	font-family: var(--font-play);
+}
+.showcase2 .container .dot .dot2 {
+	display: inline-block;
+	margin: auto;
+	border: 3px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: xx-large;
+	color: var(--color-theme);
+	font-weight: bold;
+	font-family: var(--font-roboto);
+}
+.showcase2 .container .shop4 {
+	padding-left: 190px;
+}
+.showcase2 .container .dot .dot3 {
+	margin: auto;
+	font-size: large;
+	color: black;
+	opacity: 80%;
+}
+.showcase2 .container .ruta2 {
+	display: block;
+	margin-right: auto;
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: var(--color-theme);
+	border: none;
+	color: #eeeeee;
+}
+
+.showcase2 .showcase2-body h1 {
+	font-size: 3.5rem;
+	font-family: var(--font-roboto);
+}
+
+.showcase .showcase2-body h1 strong {
+	font-weight: var(--font-weight-bold);
+	color: var(--color-theme);
+}
+.showcase2 .showcase2-body p {
+	font-size: 1rem;
+	font-family: var(--font-roboto);
+	margin: 2rem 0;
+}
+.showcase2 .text {
+	font-style: var(--font-weight-bold), var(--font-size-60);
+	display: block;
+	margin-left: auto;
+	box-sizing: inherit;
+}

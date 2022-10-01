@@ -1,0 +1,57 @@
+.showcase1 {
+	background-color: var(--color-gray-3);
+	height: 450px;
+}
+.showcase1 .container {
+	text-align: center;
+}
+
+.showcase1 .container .test {
+	display: block;
+	margin-left: auto;
+	position: inherit;
+	flex: auto;
+	width: 600px;
+	height: 300px;
+	padding: 10px;
+	border: none;
+	padding-right: 50px;
+	padding-top: 140px;
+	text-align: left;
+}
+.showcase1 .container .ruta {
+	display: block;
+	margin-right: auto;
+	position: absolute;
+	width: 250px;
+	height: 450px;
+	background-color: var(--color-theme);
+	border: none;
+	color: #eeeeee;
+}
+.showcase1 .container .ruta .rutata {
+	font-style: var(--font-play), var(--font-size-16);
+	font-size: 36px;
+	font-weight: var(--font-weight-bold);
+}
+
+.showcase1 .showcase1-body h1 {
+	font-size: 3.5rem;
+	font-family: var(--font-play);
+	padding-top: 100px;
+	font-weight: var(--font-weight-bold);
+}
+
+.showcase .showcase1-body h1 strong {
+	font-weight: var(--font-weight-bold);
+	color: var(--color-theme);
+}
+.showcase1 .showcase1-body p {
+	margin: 2rem 0;
+}
+.showcase1 .text {
+	font-style: var(--font-weight-bold), var(--font-size-60);
+	display: block;
+	margin-left: auto;
+	box-sizing: inherit;
+}

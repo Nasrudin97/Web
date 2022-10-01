@@ -1,0 +1,14 @@
+.signup-signin {
+    margin: 6rem 0;
+  }
+  
+  .signup-signin .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+       -moz-column-gap: 2rem;
+            column-gap: 2rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }

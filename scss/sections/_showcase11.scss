@@ -1,0 +1,37 @@
+.showcase11 {
+    background-color: var(--color-gray-3);
+  }
+  
+  .showcase11 .container .testy {
+    display: block;
+    margin-left: auto;
+    position: inherit;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    border: none;
+    padding-right: 50px;
+    padding-top: 140px;
+    text-align: left;
+    background-color: var(--color-gray-0);
+  }
+  
+  .showcase11 .container .rutatata {
+    display: block;
+    margin-right: auto;
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    border: none;
+    color: black;
+  }
+  
+  .showcase11 .container .rutatata .rutatatata {
+    font-style: var(--font-play), var(--font-size-16);
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-theme);
+  }

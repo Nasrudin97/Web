@@ -1,0 +1,65 @@
+.form-theme {
+    margin: 6rem 0;
+  }
+  
+  .form-theme .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+       -moz-column-gap: 2rem;
+            column-gap: 2rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  
+  .form-theme .card {
+    padding: 1.5rem;
+    border: none;
+    border-radius: var(--border-radius-small);
+    background-color: var(--color-gray-4);
+  }
+  
+  .form-theme .card .card-body h1 {
+    font-family: var(--font-roboto);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-theme-dark);
+    font-size: 1.5rem;
+  }
+  
+  .form-theme .card .card-body .card-text {
+    margin: 1.5rem 0;
+    line-height: 2;
+  }
+  
+  .form-theme .card .card-body .card-text a {
+    font-weight: var(--font-weight-medium);
+  }
+  
+  .form-theme .card .card-body .card-text.text-small {
+    color: var(--color-gray-5);
+    font-size: 0.875rem;
+  }
+  
+  .form-theme form input[type=checkbox] {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+  }
+  
+  .form-theme form input[type=text],
+  .form-theme form input[type=email],
+  .form-theme form input[type=password] {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: var(--border-radius-small);
+    padding: 0.6rem 0.9rem;
+    margin: 0.2rem 0;
+  }
+  
+  .form-theme form input:focus {
+    outline: 0;
+    -webkit-box-shadow: 0 0 3px 0 var(--color-gray-0);
+            box-shadow: 0 0 3px 0 var(--color-gray-0);
+  }

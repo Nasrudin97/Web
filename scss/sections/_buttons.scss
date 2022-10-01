@@ -1,0 +1,25 @@
+.btn-theme {
+	background-color: var(--color-theme);
+	color: var(--color-white);
+	border-radius: var(--border-radius-medium);
+	font-weight: var(--font-weight-medium);
+	padding-left: 1.75rem;
+	padding-right: 1.75rem;
+}
+.btn-theme:hover {
+	background-color: var(--color-theme-dark);
+	color: var(--color-white);
+}
+
+.btn-white {
+	background-color: var(--color-white);
+	color: var(--color-theme);
+	border-radius: var(--border-radius-medium);
+	font-weight: var(--font-weight-medium);
+	padding-left: 1.75rem;
+	padding-right: 1.75rem;
+}
+.btn-white:hover {
+	background-color: var(--color-theme-dark);
+	color: var(--color-white);
+}
